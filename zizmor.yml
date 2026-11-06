@@ -1,9 +1,0 @@
-# Version tags for the actions we consume; compiler-research/* rides @main.
-rules:
-  unpinned-uses:
-    config:
-      policies:
-        "actions/*": ref-pin
-        "pypa/*": ref-pin
-        "compiler-research/*": ref-pin
-        "*": hash-pin
